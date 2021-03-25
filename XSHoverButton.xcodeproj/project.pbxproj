@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21DA100260C1875005657A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA0FF260C1875005657A6 /* AppDelegate.m */; };
+		D21DA103260C1875005657A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA102260C1875005657A6 /* SceneDelegate.m */; };
+		D21DA106260C1875005657A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA105260C1875005657A6 /* ViewController.m */; };
+		D21DA109260C1875005657A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21DA107260C1875005657A6 /* Main.storyboard */; };
+		D21DA10B260C1876005657A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21DA10A260C1876005657A6 /* Assets.xcassets */; };
+		D21DA10E260C1876005657A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21DA10C260C1876005657A6 /* LaunchScreen.storyboard */; };
+		D21DA111260C1876005657A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA110260C1876005657A6 /* main.m */; };
+		D21DA11B260C1876005657A6 /* XSHoverButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA11A260C1876005657A6 /* XSHoverButtonTests.m */; };
+		D21DA126260C1876005657A6 /* XSHoverButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA125260C1876005657A6 /* XSHoverButtonUITests.m */; };
+		D21DA139260C18BE005657A6 /* RMSHoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D21DA137260C18BE005657A6 /* RMSHoverButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21DA117260C1876005657A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21DA0F3260C1875005657A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21DA0FA260C1875005657A6;
+			remoteInfo = XSHoverButton;
+		};
+		D21DA122260C1876005657A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21DA0F3260C1875005657A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21DA0FA260C1875005657A6;
+			remoteInfo = XSHoverButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21DA0FB260C1875005657A6 /* XSHoverButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSHoverButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21DA0FE260C1875005657A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D21DA0FF260C1875005657A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D21DA101260C1875005657A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D21DA102260C1875005657A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D21DA104260C1875005657A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D21DA105260C1875005657A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D21DA108260C1875005657A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D21DA10A260C1876005657A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D21DA10D260C1876005657A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D21DA10F260C1876005657A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21DA110260C1876005657A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D21DA116260C1876005657A6 /* XSHoverButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSHoverButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21DA11A260C1876005657A6 /* XSHoverButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHoverButtonTests.m; sourceTree = "<group>"; };
+		D21DA11C260C1876005657A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21DA121260C1876005657A6 /* XSHoverButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSHoverButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21DA125260C1876005657A6 /* XSHoverButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHoverButtonUITests.m; sourceTree = "<group>"; };
+		D21DA127260C1876005657A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21DA137260C18BE005657A6 /* RMSHoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSHoverButton.m; sourceTree = "<group>"; };
+		D21DA138260C18BE005657A6 /* RMSHoverButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSHoverButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21DA0F8260C1875005657A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA113260C1876005657A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA11E260C1876005657A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21DA0F2260C1875005657A6 = {
+			isa = PBXGroup;
+			children = (
+				D21DA0FD260C1875005657A6 /* XSHoverButton */,
+				D21DA119260C1876005657A6 /* XSHoverButtonTests */,
+				D21DA124260C1876005657A6 /* XSHoverButtonUITests */,
+				D21DA0FC260C1875005657A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21DA0FC260C1875005657A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21DA0FB260C1875005657A6 /* XSHoverButton.app */,
+				D21DA116260C1876005657A6 /* XSHoverButtonTests.xctest */,
+				D21DA121260C1876005657A6 /* XSHoverButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21DA0FD260C1875005657A6 /* XSHoverButton */ = {
+			isa = PBXGroup;
+			children = (
+				D21DA136260C18BE005657A6 /* HoverButton */,
+				D21DA0FE260C1875005657A6 /* AppDelegate.h */,
+				D21DA0FF260C1875005657A6 /* AppDelegate.m */,
+				D21DA101260C1875005657A6 /* SceneDelegate.h */,
+				D21DA102260C1875005657A6 /* SceneDelegate.m */,
+				D21DA104260C1875005657A6 /* ViewController.h */,
+				D21DA105260C1875005657A6 /* ViewController.m */,
+				D21DA107260C1875005657A6 /* Main.storyboard */,
+				D21DA10A260C1876005657A6 /* Assets.xcassets */,
+				D21DA10C260C1876005657A6 /* LaunchScreen.storyboard */,
+				D21DA10F260C1876005657A6 /* Info.plist */,
+				D21DA110260C1876005657A6 /* main.m */,
+			);
+			path = XSHoverButton;
+			sourceTree = "<group>";
+		};
+		D21DA119260C1876005657A6 /* XSHoverButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D21DA11A260C1876005657A6 /* XSHoverButtonTests.m */,
+				D21DA11C260C1876005657A6 /* Info.plist */,
+			);
+			path = XSHoverButtonTests;
+			sourceTree = "<group>";
+		};
+		D21DA124260C1876005657A6 /* XSHoverButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D21DA125260C1876005657A6 /* XSHoverButtonUITests.m */,
+				D21DA127260C1876005657A6 /* Info.plist */,
+			);
+			path = XSHoverButtonUITests;
+			sourceTree = "<group>";
+		};
+		D21DA136260C18BE005657A6 /* HoverButton */ = {
+			isa = PBXGroup;
+			children = (
+				D21DA138260C18BE005657A6 /* RMSHoverButton.h */,
+				D21DA137260C18BE005657A6 /* RMSHoverButton.m */,
+			);
+			path = HoverButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21DA0FA260C1875005657A6 /* XSHoverButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21DA12A260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButton" */;
+			buildPhases = (
+				D21DA0F7260C1875005657A6 /* Sources */,
+				D21DA0F8260C1875005657A6 /* Frameworks */,
+				D21DA0F9260C1875005657A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSHoverButton;
+			productName = XSHoverButton;
+			productReference = D21DA0FB260C1875005657A6 /* XSHoverButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21DA115260C1876005657A6 /* XSHoverButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21DA12D260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButtonTests" */;
+			buildPhases = (
+				D21DA112260C1876005657A6 /* Sources */,
+				D21DA113260C1876005657A6 /* Frameworks */,
+				D21DA114260C1876005657A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21DA118260C1876005657A6 /* PBXTargetDependency */,
+			);
+			name = XSHoverButtonTests;
+			productName = XSHoverButtonTests;
+			productReference = D21DA116260C1876005657A6 /* XSHoverButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D21DA120260C1876005657A6 /* XSHoverButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21DA130260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButtonUITests" */;
+			buildPhases = (
+				D21DA11D260C1876005657A6 /* Sources */,
+				D21DA11E260C1876005657A6 /* Frameworks */,
+				D21DA11F260C1876005657A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21DA123260C1876005657A6 /* PBXTargetDependency */,
+			);
+			name = XSHoverButtonUITests;
+			productName = XSHoverButtonUITests;
+			productReference = D21DA121260C1876005657A6 /* XSHoverButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21DA0F3260C1875005657A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D21DA0FA260C1875005657A6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D21DA115260C1876005657A6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D21DA0FA260C1875005657A6;
+					};
+					D21DA120260C1876005657A6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D21DA0FA260C1875005657A6;
+					};
+				};
+			};
+			buildConfigurationList = D21DA0F6260C1875005657A6 /* Build configuration list for PBXProject "XSHoverButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21DA0F2260C1875005657A6;
+			productRefGroup = D21DA0FC260C1875005657A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21DA0FA260C1875005657A6 /* XSHoverButton */,
+				D21DA115260C1876005657A6 /* XSHoverButtonTests */,
+				D21DA120260C1876005657A6 /* XSHoverButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21DA0F9260C1875005657A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21DA10E260C1876005657A6 /* LaunchScreen.storyboard in Resources */,
+				D21DA10B260C1876005657A6 /* Assets.xcassets in Resources */,
+				D21DA109260C1875005657A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA114260C1876005657A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA11F260C1876005657A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21DA0F7260C1875005657A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21DA106260C1875005657A6 /* ViewController.m in Sources */,
+				D21DA139260C18BE005657A6 /* RMSHoverButton.m in Sources */,
+				D21DA100260C1875005657A6 /* AppDelegate.m in Sources */,
+				D21DA111260C1876005657A6 /* main.m in Sources */,
+				D21DA103260C1875005657A6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA112260C1876005657A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21DA11B260C1876005657A6 /* XSHoverButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21DA11D260C1876005657A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21DA126260C1876005657A6 /* XSHoverButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21DA118260C1876005657A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21DA0FA260C1875005657A6 /* XSHoverButton */;
+			targetProxy = D21DA117260C1876005657A6 /* PBXContainerItemProxy */;
+		};
+		D21DA123260C1876005657A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21DA0FA260C1875005657A6 /* XSHoverButton */;
+			targetProxy = D21DA122260C1876005657A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D21DA107260C1875005657A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21DA108260C1875005657A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D21DA10C260C1876005657A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21DA10D260C1876005657A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21DA128260C1876005657A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D21DA129260C1876005657A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21DA12B260C1876005657A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21DA12C260C1876005657A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D21DA12E260C1876005657A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSHoverButton.app/XSHoverButton";
+			};
+			name = Debug;
+		};
+		D21DA12F260C1876005657A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSHoverButton.app/XSHoverButton";
+			};
+			name = Release;
+		};
+		D21DA131260C1876005657A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSHoverButton;
+			};
+			name = Debug;
+		};
+		D21DA132260C1876005657A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSHoverButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.XSHoverButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSHoverButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21DA0F6260C1875005657A6 /* Build configuration list for PBXProject "XSHoverButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21DA128260C1876005657A6 /* Debug */,
+				D21DA129260C1876005657A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21DA12A260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21DA12B260C1876005657A6 /* Debug */,
+				D21DA12C260C1876005657A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21DA12D260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21DA12E260C1876005657A6 /* Debug */,
+				D21DA12F260C1876005657A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21DA130260C1876005657A6 /* Build configuration list for PBXNativeTarget "XSHoverButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21DA131260C1876005657A6 /* Debug */,
+				D21DA132260C1876005657A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D21DA0F3260C1875005657A6 /* Project object */;
+}
