@@ -9,22 +9,22 @@ Pod::Spec.new do |spec|
   DESC
                    
   # 项目主页， 不是 git地址
-  spec.homepage = "https://github.com/RedHeartA"
+  spec.homepage = "https://github.com/RedHeartA/XSHoverButton"
  
   # 开源协议
   spec.license = { :type => "MIT", :file => "LICENSE" }
  
   # 作者信息
-  spec.author = { "vision" => "iosxupc@163.com" }
+  spec.author = { "RedHeartA" => "1391122028@qq.com" }
  
   # 支持的平台和版本号
   spec.platform = :ios, "9.0"
   # 支持多个平台
   spec.ios.deployment_target = "9.0"
   # git地址 以及tag值
-  spec.source = { :git => "https://github.com/RedHeartA/XSHoverButton.git", :tag => "1.0.1" }
+  spec.source = { :git => "https://github.com/RedHeartA/XSHoverButton.git", :tag => s.version }
   # 文件的路径
-  spec.source_files = "HoverButton/*.{h,m}"
+  spec.source_files = "XSHoverButton/HoverButton/*.{h,m}"
   
   # pod库使用的系统库
   spec.framework  = "Foundation","UIKit"
